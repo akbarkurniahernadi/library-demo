@@ -32,6 +32,8 @@ dependencies {
 	runtimeOnly("org.postgresql:postgresql")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("org.mockito:mockito-junit-jupiter:3.7.7")
+	testImplementation("com.fasterxml.jackson.core:jackson-databind")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
